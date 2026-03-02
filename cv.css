@@ -1,0 +1,121 @@
+/* Tiago Da Silva | 20254714 | L1-MIG5 */
+
+/* ===== CODE CSS DU CV ===== */
+
+/* ===== I) THÈME ADAPTATIF (CLAIR / SOMBRE) =====*/
+
+:root {
+    --bg: #f4f4f4;
+    --bg2: #a5a5a5;
+    --txt: #000000;
+}
+
+html {
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #2e2e2e;
+        --bg2: #121212;
+        --txt: #ffffff;
+    }
+}
+
+
+/* ===== II) LE BODY ===== */
+
+body {
+    font-family: Ubuntu, sans-serif;
+    margin: 0;
+    background-color: var(--bg2);
+    color: var(--txt);
+}
+
+
+/* ===== III) LE LAYOUT ===== */
+
+section {
+    background: var(--bg);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+
+/* ===== IV) LE HEADER ET LA PHOTO ===== */
+
+header {
+    background-color: var(--bg);
+    color: var(--txt);
+    text-align: left;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border-radius: 10px;
+    max-width: 160px;
+}
+
+.contact {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+/* ===== V) LA TYPOGRAPHIE ===== */
+
+.sous-titre {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+
+/* ===== VI) ORGANISATION DES LISTES ===== */
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* ===== VII) BOUTON D'ACCĖS AU PDF ===== */
+
+.pdf-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: var(--txt);
+    color: var(--bg);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.pdf-btn:hover {
+    opacity: 0.8;
+}
