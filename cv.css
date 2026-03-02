@@ -54,7 +54,7 @@ section {
 }
 
 
-/* ===== IV) LE HEADER ===== */
+/* ===== IV) LE HEADER ET LA PHOTO ===== */
 
 header {
     background-color: var(--bg);
@@ -76,7 +76,6 @@ header {
     margin-top: 20px;
     font-size: 14px;
 }
-
 
 /* ===== V) LA TYPOGRAPHIE ===== */
 
@@ -120,4 +119,5 @@ li {
     opacity: 0.8;
 
 }
+
 
