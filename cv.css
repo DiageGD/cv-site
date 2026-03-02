@@ -64,6 +64,14 @@ header {
     position: relative;
 }
 
+.photo {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border-radius: 10px;
+    max-width: 160px;
+}
+
 .contact {
     margin-top: 20px;
     font-size: 14px;
@@ -112,3 +120,4 @@ li {
     opacity: 0.8;
 
 }
+
