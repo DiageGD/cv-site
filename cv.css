@@ -54,7 +54,7 @@ section {
 }
 
 
-/* ===== IV) LE HEADER ET LA PHOTO ===== */
+/* ===== IV) LE HEADER ===== */
 
 header {
     background-color: var(--bg);
@@ -62,14 +62,6 @@ header {
     text-align: left;
     padding: 40px 20px;
     position: relative;
-}
-
-.photo {
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    border-radius: 10px;
-    max-width: 160px;
 }
 
 .contact {
@@ -118,4 +110,5 @@ li {
 
 .pdf-btn:hover {
     opacity: 0.8;
+
 }
